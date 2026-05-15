@@ -11,8 +11,9 @@ struct HomePage {
   private titleParam: Resource = $r('app.string.detail_default_title');
 
   aboutToAppear() {
-    if (router.getParams()) {
-      this.titleParam = router.getParams()[CommonConstants.KEY_PARAM_DATA] as Resource;
+    const params = router.getParams() as Record<string, Object>;
+    if (params && params[CommonConstants.KEY_PARAM_DATA]) {
+      this.titleParam = params[CommonConstants.KEY_PARAM_DATA] as Resource;
     }
   }
 

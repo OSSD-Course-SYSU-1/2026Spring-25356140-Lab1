@@ -5,15 +5,15 @@ export class ListItemData {
   /**
    * List item title.
    */
-  title: Resource;
+  title?: Resource;
 
   /**
    * Summary.
    */
-  summary: Resource;
+  summary?: Resource;
 
   /**
    * Arrow image.
    */
-  imageArrow: Resource;
+  imageArrow?: Resource;
 }

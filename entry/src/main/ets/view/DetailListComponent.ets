@@ -24,7 +24,7 @@ export struct DetailListComponent {
             .width(CommonConstants.ROW_WIDTH_PERCENT)
             .height($r('app.float.list_item_height'))
           }
-        }, (listItemData, index) => index + JSON.stringify(listItemData));
+        }, (listItemData: ListItemData, index: number) => index + JSON.stringify(listItemData));
       }
       .divider({
         strokeWidth: $r('app.float.divider_height'),

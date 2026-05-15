@@ -8,10 +8,10 @@ export class Category {
   /**
    * Category title.
    */
-  title: Resource;
+  title?: Resource;
 
   /**
    * Category content(a list).
    */
-  categoryContent: Array<ListItemData>;
+  categoryContent?: Array<ListItemData>;
 }
