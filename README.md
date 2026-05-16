@@ -31,7 +31,7 @@
 ![](https://github.com/linwu-hi/release-dev-offline/blob/main/docs/20231123164921.jpg)
 
 ## 原版修改说明
-为了能在虚拟机中正常运行，在升级功能前，对原版代码进行了如下安全性修改：
+为了能在虚拟机中正常运行，在升级功能之前，对原版代码进行了如下安全性修改：
 ### 1. 类属性初始化问题 (4个错误)
 ListItemData.ets: 将 title、summary、imageArrow 改为可选属性 (?)
 Category.ets: 将 title、categoryContent 改为可选属性 (?)
