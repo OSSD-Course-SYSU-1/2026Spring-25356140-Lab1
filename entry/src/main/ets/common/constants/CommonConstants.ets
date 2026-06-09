@@ -27,6 +27,10 @@ export class CommonConstants {
    * Detail page url.
    */
   static readonly DETAIL_PAGE = 'pages/DetailPage';
+  /**
+   * Profile page url.
+   */
+  static readonly PROFILE_PAGE = 'pages/ProfilePage';
 
   /**
    * This is key param of data.

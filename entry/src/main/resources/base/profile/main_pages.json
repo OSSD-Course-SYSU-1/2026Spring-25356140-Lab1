@@ -2,6 +2,20 @@
   "src": [
     "pages/HomePage",
     "pages/IndexPage",
-    "pages/DailyRecommendPage"
+    "pages/DailyRecommendPage",
+    "pages/ProfilePage",
+    "pages/PlayerPage",
+    "pages/PlaylistDetailPage",
+    "pages/SearchPage",
+    "pages/PrivateFMPage",
+    "pages/HeartModePage",
+    "pages/PrivateRadioPage",
+    "pages/RunningFMPage",
+    "pages/SleepModePage",
+    "pages/LocalMusicPage",
+    "pages/RecentPlayPage",
+    "pages/DownloadPage",
+    "pages/MyRadioListPage",
+    "pages/MyCollectionPage"
   ]
 }
